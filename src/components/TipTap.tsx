@@ -11,7 +11,7 @@ import TextAlign from "@tiptap/extension-text-align";
 import Highlight from "@tiptap/extension-highlight";
 import Typography from "@tiptap/extension-typography";
 import Link from "@tiptap/extension-link";
-import { useCallback, useEffect } from "react";
+import { useCallback } from "react";
 
 export const TipTap = () => {
   const editor = useEditor({
